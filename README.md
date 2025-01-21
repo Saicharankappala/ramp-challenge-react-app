@@ -28,8 +28,14 @@ The typewriter effect is implemented using React's useEffect and setInterval to 
 Fetch Flag:
 The app fetches the flag from the URL using the fetch API and handles potential errors gracefully.
 
+🛠 Tech Stack
+Frontend: React
+APIs: Browser fetch API
+Deployment: CodeSandbox
+
 🏆 Bonus: URL Extraction Script
 The hidden URL was extracted from the HTML using the following JavaScript script:
+```javascript
 let characters = [];
 document.querySelectorAll('code[data-class^="23"] div[data-tag$="93"] span[data-id*="21"]').forEach((node) => {
   let charElement = node.querySelector("i.char");
@@ -41,8 +47,4 @@ document.querySelectorAll('code[data-class^="23"] div[data-tag$="93"] span[data-
 let hiddenURL = characters.join("");
 console.log("Hidden URL:", hiddenURL);
 
-🛠 Tech Stack
-Frontend: React
-APIs: Browser fetch API
-Deployment: CodeSandbox
 

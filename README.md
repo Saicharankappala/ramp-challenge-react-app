@@ -18,9 +18,11 @@ You can access the live demo [here](<CodeSandbox Link>).
    git clone https://github.com/Saicharankappala/ramp-challenge-react-app.git
    cd ramp-challenge-react-app
 2. Install dependencies:
+   ```bash
    npm install
-3.  Run the app:
-   npm start
+4.  Run the app:
+     ```bash
+      npm start
 
 📜 Code Highlights
 Typewriter Effect:
